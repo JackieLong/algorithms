@@ -30,13 +30,14 @@ int main()
     // ≤‚ ‘ƒ⁄≈≈–ÚÀ„∑®
     //
     // ***************************************************************
-    //TestInnerSortAlgorithm testSort;
+    TestInnerSortAlgorithm testSort;
     //testSort.test( InnerSortAlgorithm::Algorithm::INSERT );
     //testSort.test( InnerSortAlgorithm::Algorithm::SELECTION );
     //testSort.test( InnerSortAlgorithm::Algorithm::BUBBLE );
     //testSort.test( InnerSortAlgorithm::Algorithm::SHELL );
+    //testSort.testPartition();
     //testSort.test( InnerSortAlgorithm::Algorithm::MERGE );
-    //testSort.test( InnerSortAlgorithm::Algorithm::QUICK );
+    testSort.test( InnerSortAlgorithm::Algorithm::QUICK );
     //testSort.test( InnerSortAlgorithm::Algorithm::HEAP );
     //testSort.test( InnerSortAlgorithm::Algorithm::COUNT );
     //testSort.test( InnerSortAlgorithm::Algorithm::BUCKET );
@@ -47,8 +48,8 @@ int main()
     // ≤‚ ‘≤È’“À„∑®
     //
     // ***************************************************************
-    TestSearchAlgorithm testSearch;
-    testSearch.test( SearchAlgorithm::Algorithm::Binary );
-    testSearch.test( SearchAlgorithm::Algorithm::Binary_Recur );
+    //TestSearchAlgorithm testSearch;
+    //testSearch.test( SearchAlgorithm::Algorithm::Binary );
+    //testSearch.test( SearchAlgorithm::Algorithm::Binary_Recur );
     return 0;
 }
