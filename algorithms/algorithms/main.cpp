@@ -1,7 +1,6 @@
-
-#include "llk/LLKAlgorithm.h"
-#include "inner_sort/InnerSortAlgorithm.h"
-#include "search/SearchAlgorithm.h"
+#include "test/TestInnerSortAlgorithm.h"
+#include "test/TestLLKAlgorithm.h"
+#include "test/TestSearchAlgorithm.h"
 
 using namespace std;
 
@@ -30,18 +29,17 @@ int main()
     // ≤‚ ‘ƒ⁄≈≈–ÚÀ„∑®
     //
     // ***************************************************************
-    TestInnerSortAlgorithm testSort;
-    //testSort.test( InnerSortAlgorithm::Algorithm::INSERT );
-    //testSort.test( InnerSortAlgorithm::Algorithm::SELECTION );
-    //testSort.test( InnerSortAlgorithm::Algorithm::BUBBLE );
-    //testSort.test( InnerSortAlgorithm::Algorithm::SHELL );
-    //testSort.testPartition();
-    //testSort.test( InnerSortAlgorithm::Algorithm::MERGE );
-    testSort.test( InnerSortAlgorithm::Algorithm::QUICK );
-    //testSort.test( InnerSortAlgorithm::Algorithm::HEAP );
-    //testSort.test( InnerSortAlgorithm::Algorithm::COUNT );
-    //testSort.test( InnerSortAlgorithm::Algorithm::BUCKET );
-    //testSort.test( InnerSortAlgorithm::Algorithm::BASE );
+    //TestInnerSortAlgorithm testSort;
+    //testSort.test( TestInnerSortAlgorithm::Algorithm::INSERT );
+    //testSort.test( TestInnerSortAlgorithm::Algorithm::SELECTION );
+    //testSort.test( TestInnerSortAlgorithm::Algorithm::BUBBLE );
+    //testSort.test( TestInnerSortAlgorithm::Algorithm::SHELL );
+    //testSort.test( TestInnerSortAlgorithm::Algorithm::MERGE );
+    //testSort.test( TestInnerSortAlgorithm::Algorithm::QUICK );
+    //testSort.test( TestInnerSortAlgorithm::Algorithm::HEAP );
+    //testSort.test( TestInnerSortAlgorithm::Algorithm::COUNT );
+    //testSort.test( TestInnerSortAlgorithm::Algorithm::BUCKET );
+    //testSort.test( TestInnerSortAlgorithm::Algorithm::BASE );
 
     // ***************************************************************
     //
@@ -49,7 +47,8 @@ int main()
     //
     // ***************************************************************
     //TestSearchAlgorithm testSearch;
-    //testSearch.test( SearchAlgorithm::Algorithm::Binary );
-    //testSearch.test( SearchAlgorithm::Algorithm::Binary_Recur );
+    //testSearch.testBinary();
+    //testSearch.testBinaryRecur();
+
     return 0;
 }

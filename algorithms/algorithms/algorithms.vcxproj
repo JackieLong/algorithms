@@ -110,15 +110,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="inner_sort\InnerSortAlgorithm.cpp" />
     <ClCompile Include="llk\LLKAlgorithm.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="search\SearchAlgorithm.cpp" />
+    <ClCompile Include="test\TestInnerSortAlgorithm.cpp" />
+    <ClCompile Include="test\TestLLKAlgorithm.cpp" />
+    <ClCompile Include="test\TestSearchAlgorithm.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="inner_sort\InnerSortAlgorithm.h" />
+    <ClInclude Include="Algorithm.h" />
+    <ClInclude Include="inner_sort\0_BubbleSort.h" />
+    <ClInclude Include="inner_sort\6_HeapSort.h" />
+    <ClInclude Include="inner_sort\1_InsertionSort.h" />
+    <ClInclude Include="inner_sort\4_MergeSort.h" />
+    <ClInclude Include="inner_sort\5_QuickSort.h" />
+    <ClInclude Include="inner_sort\2_SelectionSort.h" />
+    <ClInclude Include="inner_sort\3_ShellSort.h" />
     <ClInclude Include="llk\LLKAlgorithm.h" />
-    <ClInclude Include="search\SearchAlgorithm.h" />
+    <ClInclude Include="Macro.h" />
+    <ClInclude Include="search\BinarySearch.h" />
+    <ClInclude Include="test\TestInnerSortAlgorithm.h" />
+    <ClInclude Include="test\TestLLKAlgorithm.h" />
+    <ClInclude Include="test\TestSearchAlgorithm.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

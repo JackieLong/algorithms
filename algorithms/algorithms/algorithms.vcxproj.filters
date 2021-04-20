@@ -22,30 +22,69 @@
     <Filter Include="源文件\inner_sort">
       <UniqueIdentifier>{55d4b73a-3eb3-4b5f-8304-aaf8707fd596}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\test">
+      <UniqueIdentifier>{67bd6207-279b-4076-aa5a-0a75f572cfff}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="inner_sort\InnerSortAlgorithm.cpp">
-      <Filter>源文件\inner_sort</Filter>
-    </ClCompile>
     <ClCompile Include="llk\LLKAlgorithm.cpp">
       <Filter>源文件\llk</Filter>
     </ClCompile>
-    <ClCompile Include="search\SearchAlgorithm.cpp">
-      <Filter>源文件\search</Filter>
+    <ClCompile Include="test\TestLLKAlgorithm.cpp">
+      <Filter>源文件\test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\TestSearchAlgorithm.cpp">
+      <Filter>源文件\test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\TestInnerSortAlgorithm.cpp">
+      <Filter>源文件\test</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="inner_sort\InnerSortAlgorithm.h">
-      <Filter>源文件\inner_sort</Filter>
-    </ClInclude>
     <ClInclude Include="llk\LLKAlgorithm.h">
       <Filter>源文件\llk</Filter>
     </ClInclude>
-    <ClInclude Include="search\SearchAlgorithm.h">
+    <ClInclude Include="search\BinarySearch.h">
       <Filter>源文件\search</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="test\TestInnerSortAlgorithm.h">
+      <Filter>源文件\test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\TestLLKAlgorithm.h">
+      <Filter>源文件\test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\TestSearchAlgorithm.h">
+      <Filter>源文件\test</Filter>
+    </ClInclude>
+    <ClInclude Include="inner_sort\0_BubbleSort.h">
+      <Filter>源文件\inner_sort</Filter>
+    </ClInclude>
+    <ClInclude Include="inner_sort\1_InsertionSort.h">
+      <Filter>源文件\inner_sort</Filter>
+    </ClInclude>
+    <ClInclude Include="inner_sort\2_SelectionSort.h">
+      <Filter>源文件\inner_sort</Filter>
+    </ClInclude>
+    <ClInclude Include="inner_sort\3_ShellSort.h">
+      <Filter>源文件\inner_sort</Filter>
+    </ClInclude>
+    <ClInclude Include="inner_sort\4_MergeSort.h">
+      <Filter>源文件\inner_sort</Filter>
+    </ClInclude>
+    <ClInclude Include="inner_sort\5_QuickSort.h">
+      <Filter>源文件\inner_sort</Filter>
+    </ClInclude>
+    <ClInclude Include="inner_sort\6_HeapSort.h">
+      <Filter>源文件\inner_sort</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
