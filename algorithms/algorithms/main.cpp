@@ -1,6 +1,7 @@
 #include "test/TestInnerSortAlgorithm.h"
 #include "test/TestLLKAlgorithm.h"
 #include "test/TestSearchAlgorithm.h"
+#include "Algorithm.h"
 
 using namespace std;
 
@@ -49,6 +50,15 @@ int main()
     //TestSearchAlgorithm testSearch;
     //testSearch.testBinary();
     //testSearch.testBinaryRecur();
+
+    // ***************************************************************
+    //
+    // ≤‚ ‘∫∫≈µÀ˛À„∑®
+    //
+    // ***************************************************************
+    Algorithm::Pole start, goal, temp;
+    start.data = { 6, 5, 4, 3, 2, 1 };
+    Algorithm::TOH( start, goal, temp );
 
     return 0;
 }

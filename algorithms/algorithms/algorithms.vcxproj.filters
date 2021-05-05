@@ -25,6 +25,9 @@
     <Filter Include="源文件\test">
       <UniqueIdentifier>{67bd6207-279b-4076-aa5a-0a75f572cfff}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\TowerOfHanoi">
+      <UniqueIdentifier>{03886dec-021e-45b6-a7d8-52aacb1928c6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -85,6 +88,9 @@
     </ClInclude>
     <ClInclude Include="inner_sort\6_HeapSort.h">
       <Filter>源文件\inner_sort</Filter>
+    </ClInclude>
+    <ClInclude Include="towerOfHanoi\TOH.h">
+      <Filter>源文件\TowerOfHanoi</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

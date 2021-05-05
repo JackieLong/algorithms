@@ -131,6 +131,7 @@
     <ClInclude Include="test\TestInnerSortAlgorithm.h" />
     <ClInclude Include="test\TestLLKAlgorithm.h" />
     <ClInclude Include="test\TestSearchAlgorithm.h" />
+    <ClInclude Include="towerOfHanoi\TOH.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
